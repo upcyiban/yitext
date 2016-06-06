@@ -1,0 +1,160 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+.team-members{
+  padding: 7% 0;
+}
+.tm-head{
+  text-align:center;
+}
+h3{
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #000000;
+  font-size: 2.5em;
+  font-weight: 700;
+  text-align: center;
+}
+p{
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.4em;
+  padding: 0em 0;
+  color: #000000;
+  line-height: 1.5em;
+  text-align:center;
+  margin-bottom: 6%;
+}
+.tm-head-grid img{
+  width: 90.6%;
+  cursor: pointer;
+}
+.tm-head-grid:hover {
+  background:  #DB5941;
+}
+.tm-head-grid {
+  width: 30.9%;
+  text-align: center;
+  float: left;
+  margin-right: 3.6%;
+  padding-top: 14px;
+  background: #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.tm-head-grids {
+  width: 82%;
+  margin: 0 8% 0;
+}
+.tm-head-grid:nth-child(3){
+  margin-right:0;
+}
+.tm-head-grid h4{
+  color: #333;
+  font-size: 1.2em;
+  font-weight: 400;
+  margin: 0.8em 0 0.2em 0;
+}
+.tm-head-grid h5{
+  color: #7C3939;
+  margin: 0 auto;
+  font-size: 1em;
+}
+.border{
+  margin-top: 30px;
+  padding: 20px 30px;
+  border-radius: 10px;/*圆角的边框*/
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;/*设置兼容性*/
+  box-shadow: 0px 0px 0px 10px #46b8da;/*设置阴影*/
+  -moz-box-shadow: 0px 0px 0px 10px #46b8da;
+  -webkit-box-shadow: 0px 0px 0px 10px #46b8da;
+}
+.img{
+  width: 45px;
+  display: block;
+}
